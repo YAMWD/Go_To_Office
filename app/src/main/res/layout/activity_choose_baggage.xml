@@ -174,9 +174,15 @@
         android:layout_width="113dp"
         android:layout_height="95dp"
         android:layout_marginStart="36dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:srcCompat="@drawable/gaotie"
-        tools:layout_editor_absoluteY="355dp" />
+        app:layout_constraintTop_toBottomOf="@+id/subheader2"
+        app:srcCompat="@drawable/gaotie" />
 
     <TextView
         android:id="@+id/textView12"
@@ -257,4 +263,5 @@
         android:text="轮船"
         app:layout_constraintStart_toStartOf="@+id/imageView10"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

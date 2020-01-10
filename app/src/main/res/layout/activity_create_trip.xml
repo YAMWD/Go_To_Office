@@ -73,6 +73,7 @@
         android:layout_marginStart="164dp"
         android:layout_marginTop="32dp"
         android:background="#6292C8"
+        android:onClick="gotoChoose_baggage"
         android:text="选择装备"
         android:textColor="#ffffff"
         app:layout_constraintStart_toStartOf="parent"
